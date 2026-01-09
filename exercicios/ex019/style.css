@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+/*EM HTML E ID = EM CSS E #
+EM HTML E CLASS = EM CSS PONTO . */
+
+body {
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    background-color: #d2f6bb;
+    margin: 20px;
+}
+h1 {
+    color: #2e8b57;
+   
+}
+h1#principal {
+    
+    text-align: center;
+    background-color: #2e8b57;
+    color: white;
+}
+h2 {
+    color: #13a187;
+    
+}   
+.basico {
+    color: #b0dc2d;
+    padding: 10px;
+    font-weight: bold;
+}
+.intermediario {
+    color: #046f24;
+    padding: 10px;
+    font-weight: bold;
+}
+.avancado {
+    color: #c4310c;
+    padding: 10px;
+    font-weight: bold;
+}
+.destaque {
+    background-color: #13a187;
+    color: #c4310c;
+    padding: 10px;
+    text-align: center;
+}
