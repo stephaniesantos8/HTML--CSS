@@ -1,66 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafio 13 - Tabelas- B</title>
     <style>
-table{
-    width: 400px;
-    border-collapse: collapse;
-    font-family: Arial, sans-serif;
-  
-}
-td, th{
-    border: 1px solid black;
-    padding: 8px;
-    text-align: center;
-    width: 80px;
-    }
+        body {
 
-</style>
+            font-family: Arial, sans-serif;
+
+        }
+
+        td,
+        th {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+            width:
+                80px;
+            ;
+        }
+    </style>
 </head>
+
 <body>
     <h1>Desafio 13 - Tabelas- B</h1>
 
     <table>
-  <tbody>
-    <!-- Linha 1 -->
-    <tr>
-     
-      <td colspan="3">A</td>
-      <td></td>
-    </tr>
+        <tbody>
 
-    <!-- Linha 2 (C e B começam aqui junto com D/E/F) -->
-    <tr>
-      <td rowspan="4">C</td>
-      <td>D</td>
-      <td>E</td>
-      <td>F</td>
-      <td rowspan="3">B</td>
-    </tr>
 
-    <!-- Linha 3 -->
-    <tr>
-      <td>G</td>
-      <td>H</td>
-      <td>I</td>
-    </tr>
+            <td colspan="4">A</td>
+            <td rowspan="4">B</td>
+            </tr>
 
-    <!-- Linha 4 -->
-    <tr>
-      <td>J</td>
-      <td>L</td>
-      <td>M</td>
-    </tr>
 
-    <!-- Linha 5 (N NÃO tem célula sob o B) -->
-    <tr>
-      <td colspan="5" >N</td>
-    </tr>
-  </tbody>
-</table>
+            <tr>
+                <td rowspan="4">C</td>
+                <td>D</td>
+                <td>E</td>
+                <td>F</td>
+
+            </tr>
+
+
+            <tr>
+                <td>G</td>
+                <td>H</td>
+                <td>I</td>
+            </tr>
+
+
+            <tr>
+                <td>J</td>
+                <td>L</td>
+                <td>M</td>
+            </tr>
+
+
+            <tr>
+                <td colspan="5">N</td>
+            </tr>
+        </tbody>
+    </table>
 
 </body>
+
 </html>
