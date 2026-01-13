@@ -10,26 +10,31 @@
         body {
             font-family: Arial, Helvetica, sans-serif;
         }
+
         table {
-            ;
+            width: 80%;
             border-collapse: collapse;
-            margin: 20px 0;
+            margin: 30px 0;
         }
-caption {
+
+        caption {
             font-size: 1.5em;
             padding: 10px;
             font-weight: bold;
         }
+
         th,
         td {
             border: 1px solid black;
             padding: 8px;
             text-align: center;
         }
-.destaque {
+
+        .destaque {
             background-color: rgb(237, 148, 148);
             color: white;
         }
+
         thead {
             color: white;
             background-color: rgb(237, 148, 148);
@@ -37,15 +42,20 @@ caption {
 
         .media-exatas th,
         .media-exatas td {
-            background-color:rgb(237, 148, 148);
+            background-color: rgb(237, 148, 148);
             color: white;
-            text-align: right;
+            text-align: left;
         }
+
         .media-humanas th,
         .media-humanas td {
             background-color: rgb(237, 148, 148);
             color: white;
-            text-align: right;
+            text-align: left;
+        }
+        td.total {
+            text-align: center;
+            padding-left: 10px;
         }
     </style>
 </head>
@@ -61,10 +71,10 @@ caption {
                 <th rowspan="2" class="destaque">Media</th>
             </tr>
             <tr>
-                
-                <th class="destaque">Nota 1</th>
-                <th class="destaque">Nota 2</th>
-                
+
+                <th class="destaque" scope="col">Nota 1</th>
+                <th class="destaque" scope="col">Nota 2</th>
+
             </tr>
         </thead>
 
@@ -74,13 +84,14 @@ caption {
                 <td>Matematica</td>
                 <td>8</td>
                 <td>7.5</td>
-<td>8.17</td>
+                <td>8.17</td>
             </tr>
             <tr>
                 <td>Fisica</td>
                 <td>7</td>
-                <td>8</td>                <td>7.17</td>
-                
+                <td>8</td>
+                <td>7.17</td>
+
             </tr>
             <tr>
                 <td>Quimica</td>
@@ -97,8 +108,8 @@ caption {
             </tr>
 
             <tr class="media-exatas">
-                <th scope="row">Media de Exatas</th>
-                <td colspan="4">50</td>
+                <th colspan="4" scope="row">Media de Exatas</th>
+                <td colspan="4" class="total">50</td>
             </tr>
             <tr>
                 <th rowspan="2" scope="rowgroup">Humanas</th>
@@ -118,8 +129,8 @@ caption {
             </tr>
             <tr class="media-humanas">
 
-                <th scope="row">Media de Humanas</th>
-                <td colspan="4">50</td>
+                <th colspan="4" scope="row">Media de Humanas</th>
+                <td colspan="4" class="total">50</td>
 
             </tr>
 
