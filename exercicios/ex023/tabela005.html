@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio de Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            padding: 8px;
+            font-size: 1.3em;
+        }
+
+        caption {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .destaque {
+            font-weight: bold;
+           background-color: chartreuse;
+        }
+        .nome {
+            background-color: lightgreen;
+        }
+        .idade {
+            background-color: lightblue;
+        }
+        .sexo {
+            background-color: lightpink;
+        }
+        .profissao {
+            background-color: lightyellow;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Exercicio de Tabelas</h1>
+
+    <table>
+<colgroup>
+    <col class="nome">
+    <col class="idade">
+    <col class="sexo">
+    <col class="profissao">
+
+</colgroup>
+
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Profissão</th>
+        </tr>
+
+        <tr  >
+            <td >Ana Maria</td>
+            <td>25</td>
+            <td>Feminino</td>
+            <td>Engenheira</td>
+        </tr>
+        <tr>
+            <td>João Pedro</td>
+            <td>30</td>
+            <td>Masculino</td>
+            <td>Médico</td>
+        </tr>
+        <tr  >
+            <td  >Carla Souza</td>
+            <td>28</td>
+            <td>Feminino</td>
+            <td>Advogada</td>
+        </tr>
+        <tr>
+            <td>Lucas Lima</td>
+            <td>35</td>
+            <td>Masculino</td>
+            <td>Professor</td>
+        </tr>
+        <tr >
+            <td>Mariana Alves</td>
+            <td>22</td>
+            <td>Feminino</td>
+            <td>Designer</td>
+        </tr>
+        <tr>
+            <td>Rafael Costa</td>
+            <td>27</td>
+            <td>Masculino</td>
+            <td>Programador</td>
+        </tr>
+    </table>
+</body>
+
+</html>
