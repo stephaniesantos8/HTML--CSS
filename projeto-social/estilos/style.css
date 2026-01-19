@@ -19,7 +19,7 @@ body{
     background-size: cover;
     background-attachment: fixed;
 }
-#telefone{
+section#telefone{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -29,4 +29,11 @@ body{
     
     background: url(../imagens/frame-iphone.png) no-repeat center;
 
+}
+iframe#tela{
+    position: relative;
+    top: 80px;
+    left: 22px;
+   width: 269px;
+   height: 471px;
 }
