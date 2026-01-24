@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Exemplo de Formulario</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">      
+    
+<p>
+    <label for="inum" >Numero</label>
+    input range
+    <input type="range" name="num" id="inum" min="0" max="100" step="5" value="50" oninput="ivalor.value = inum.value">
+    <output name="valor" id="ivalor">50</output>
+</p>
+
+        <p>
+            <input type="submit"   value="Enviar">
+            <input type="reset"    value="Limpar">
+        </p>
+    
+    </body>
+</form>
+</body>
+</html>
