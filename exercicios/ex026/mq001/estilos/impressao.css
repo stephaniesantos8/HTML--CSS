@@ -7,6 +7,22 @@
  }
     html {
         font-family: 'Courier New', Courier, monospace ;
-        font-size: 1.5em;
-        line-height: 1.5em;
+        font-size: 1em;
+        line-height: 1em;
+    }
+    menu {
+        display: none;
+    }
+    article {
+        border: 2px dashed #000;
+        padding: 15px;
+        margin-bottom: 20px;
+    }
+   article ::after
+    {
+         content: " - Esse artigo foi impresso atraves do site www.cursoemvideo.com - ";
+         display: block;
+         text-align: center;
+         font-weight: bold;
+         margin-top: 10px;
     }
