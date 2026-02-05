@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+/* Estilos para dispositivos com largura mínima de 600px *
+pequenas telas: ate 600px
+celular: 600px to 768px
+tablet: 768px to 992px
+desktop: 992px to 1200px
+grandes telas: acima de 1200px*/
+
+
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+  #itens {
+    display: block;
+  }
+
+  .icon-menu {
+    display: none;
+  }
+}
+ menu > ul > li {
+    display: inline-block;
+ }
+ main {
+    width: 70%;
+ }

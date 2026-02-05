@@ -31,6 +31,7 @@ position: relative;
     color: white;
     text-align: center;
     padding: 10px;
+    display: block;
    
     
     }
@@ -39,9 +40,12 @@ position: relative;
     color: rgb(83, 82, 82);
     cursor: pointer;
     }
-
     #itens {
-display: none;
+        display: none;
+    }
+
+    #itens.ativo {
+display: block;
     }
 
     #itens > ul {
