@@ -17,17 +17,48 @@ header {
 background-color: #90c7f4;
 color : white;
 padding: 10px;
+display: flex;
+justify-content: space-between;
+flex-flow: row wrap;
+align-items: center;
 
 }
  
 header > h1 {
-border : 1px dotted black
+border : 1px dotted black;
+flex: 0 0 200px; 
 
 }
-header > nav {
+header > nav > ul  {
     border: 1px dotted black;
+    display: flex;
+    flex-flow: row wrap;
+    list-style: none;
+    justify-content: flex-end;
+    padding: 0;
+    margin: 0;
+
+   
 }
 
+header > nav > ul > li > a {
+    background-color: rgb(80, 80, 249);
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+     transition: background-color 0.3s ease;
+}
+header > nav > ul > li  > a:hover {
+    background-color: rgb(154, 154, 246);
+    color: white;
+  
+   
+   
+}
 main {
 background-color: white;
 margin: 20px;
