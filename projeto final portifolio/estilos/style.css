@@ -247,9 +247,26 @@ footer a:hover{
   color: var(--destaque-inverso);
 }
 
+
 @media screen and (min-width: 768px) {
+  main {
+    
+grid-template-columns: auto 300px 1fr auto;
+gap: 20px;
+align-items: start;
+  }
+  section#ficha {
+grid-column: 2 / 3;
+height: fit-content;
+position: sticky;
+top: 65px;
+  }
+  section#detalhes{
+    grid-column: 3 / 4;
+  }
+ 
   #skill-container {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr 1fr;
   }
   #projeto-container .projeto{
     flex-direction: row-reverse;
@@ -257,11 +274,11 @@ footer a:hover{
    
   }
   #projeto-container .projeto-info{
-   max-width: 80%;
+ max-width: 80%;
 
   }
   #projeto-container .foto{
-    max-width: 20%;
+    max-width: 200px;
     aspect-ratio: 1/1;
     max-height: 200px;
   }
